@@ -1,0 +1,1 @@
+var d3 = window.d3 = global.d3 = require("d3");

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>D3 Bar chart</title>
+    <link rel="stylesheet" href="dist/barchart.css">
+</head>
+<body>
+<svg id="barchart" width="700" height="300"></svg>
+<script src="dist/barchart.js" type="application/javascript"></script>
+<script>
+    var d3Data = [
+        {"label": "Yangon", "value1": 1280000000, "value2": 1500000000},
+        {"label": "Mandalay", "value1": 1530000000, "value2": 1100000000},
+        {"label": "Sagaing", "value1": 300000000, "value2": 690000000}
+    ];
+    D3BarChart.draw('#barchart', d3Data);
+</script>
+</body>
+</html>
